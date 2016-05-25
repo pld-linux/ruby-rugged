@@ -15,6 +15,8 @@ URL:		https://github.com/libgit2/rugged
 BuildRequires:	cmake
 BuildRequires:	git-core
 BuildRequires:	libgit2-devel
+BuildRequires:	rpm-rubyprov
+BuildRequires:	ruby-devel
 BuildRequires:	ruby-minitest
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
