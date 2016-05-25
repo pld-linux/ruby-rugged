@@ -14,6 +14,7 @@ Source0:	https://rubygems.org/gems/%{pkgname}-%{version}.gem
 URL:		https://github.com/libgit2/rugged
 BuildRequires:	cmake
 BuildRequires:	git-core
+BuildRequires:	gmp-devel
 BuildRequires:	libgit2-devel
 BuildRequires:	rpm-rubyprov
 BuildRequires:	ruby-devel
