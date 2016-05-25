@@ -12,13 +12,14 @@ Group:		Development/Languages
 Source0:	https://rubygems.org/gems/%{pkgname}-%{version}.gem
 # Source0-md5:	9f86c5a2801b6727aa88a302dc018a2f
 URL:		https://github.com/libgit2/rugged
-BuildRequires:	cmake
-BuildRequires:	git-core
 BuildRequires:	gmp-devel
 BuildRequires:	libgit2-devel
 BuildRequires:	rpm-rubyprov
 BuildRequires:	ruby-devel
+%if %{with tests}
+BuildRequires:	git-core
 BuildRequires:	ruby-minitest
+%endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
