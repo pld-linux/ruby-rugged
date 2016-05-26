@@ -13,7 +13,7 @@ Source0:	https://rubygems.org/gems/%{pkgname}-%{version}.gem
 # Source0-md5:	9f86c5a2801b6727aa88a302dc018a2f
 URL:		https://github.com/libgit2/rugged
 BuildRequires:	gmp-devel
-BuildRequires:	libgit2-devel
+BuildRequires:	libgit2-devel >= 0.24.0
 BuildRequires:	rpm-rubyprov
 BuildRequires:	ruby-devel
 %if %{with tests}
