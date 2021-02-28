@@ -30,9 +30,7 @@ testing and using the libgit2 library in a language that is awesome.
 Summary:	Documentation for %{name}
 Group:		Documentation
 Requires:	%{name} = %{version}-%{release}
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description doc
 Documentation for %{name}
